@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{4E40957C-3A77-960D-E363-7C10CF79120F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\application">
+      <UniqueIdentifier>{3109BE61-1D02-DDB3-4634-C238328CBCBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\window">
+      <UniqueIdentifier>{953D6D93-01F3-E588-8AE7-DF5FF69BDC8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{43339F7C-2F6A-A00D-D856-8610C46C1C0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Drengr.h" />
+    <ClInclude Include="src\core\application\Application.h">
+      <Filter>core\application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\window\Window.h">
+      <Filter>core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Assert.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\Entry.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\application\Application.cpp">
+      <Filter>core\application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\window\Window.cpp">
+      <Filter>core\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
